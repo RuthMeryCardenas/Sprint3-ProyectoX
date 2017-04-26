@@ -135,3 +135,59 @@ header{
   background-color: #ECA50B;
   color: #FFFFFF;
 }
+
+/*Menú Principal*/
+.main-menu {
+  background-color: #FFFFFF;
+  bottom: 15%;
+  color: #97989A;
+  height: 110px;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.menu-container {
+  box-sizing: border-box;
+  height: 100%;
+  left: 10%;
+  padding: 0 15px;
+  position: relative;
+  width: 80%;
+}
+
+/*Marca o logo*/
+.brand {
+  background-color: #FFFFFF;
+  float: left;
+  font-size: 2.0rem;
+  height: 100%;
+  text-align: center;
+  width: 20%;
+}
+
+.brand img {
+  height: 100%;
+  width: 100%;
+}
+
+/*Barra de Navegación*/
+.nav-bar {
+  float: left;
+  height: 100%;
+  width: 80%;
+  text-align: center;
+}
+
+.nav-bar .nav-link {
+  color: #555A5E;
+  font-size: 1.4rem;
+  padding: 44.5px 25px;
+  position: relative;
+  text-decoration: none;
+  top: 44.5px;
+}
+
+.nav-bar .nav-link:hover {
+  color: #ECA50B;
+}
