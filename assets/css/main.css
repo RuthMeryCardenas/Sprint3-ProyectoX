@@ -24,7 +24,7 @@
 }
 
 .slide .slide-image {
-  opacity: 0.75;
+  opacity: 0.6;
   position: absolute;
 }
 
@@ -59,4 +59,79 @@
 
 .image-hidden {
   display: none;
+}
+
+/*Header*/
+header{
+  background-color: transparent;
+  height: 124px;
+  top: 5%;
+  z-index: 1000;
+}
+
+.header-details {
+  box-sizing: border-box;
+  height: 100%;
+  left: 10%;
+  padding: 0 15px;
+  position: relative;
+  text-align: right;
+  width: 80%;
+}
+
+/*Información breve*/
+.home-address {
+  box-sizing: border-box;
+  font-size: 2.1rem;
+  left: 20%;
+  position: relative;
+  width: 80%;
+}
+
+.call {
+  font-size: 4.2rem;
+  left: 20%;
+  position: relative;
+  width: 80%;
+}
+
+.call .icon-phone {
+  font-size: 3.5rem;
+}
+
+/*Iconos de redes sociales*/
+.container-icon {
+  box-sizing: border-box;
+  height: 55px;
+  left: 15px;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  width: 19%;
+}
+
+.header-icon {
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 21px;
+  height: 55px;
+  margin-right: 7.5px;
+  padding-top: 13px;
+  position: relative;
+  text-align: center;
+  width: 55px;
+  text-decoration: none;
+}
+
+.header-icon span {
+  background-color: #555A5E;
+  border-radius: 50%;
+  padding: 17px;
+}
+
+.header-icon > span:hover {
+  background-color: #ECA50B;
+  color: #FFFFFF;
 }
