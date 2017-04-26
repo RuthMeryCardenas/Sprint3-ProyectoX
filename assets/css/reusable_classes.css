@@ -1,0 +1,15 @@
+/*Clases Reutilizables*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-size: 10px;
+}

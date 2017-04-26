@@ -1,0 +1,62 @@
+.main-container, header {
+  position: absolute;
+  width: 100%;
+}
+
+/*Contenedor Principal*/
+.main-container {
+  background-color: #EAEAEA;
+  color: #FFFFFF;
+  height: 100%;
+  top: 0;
+}
+
+/*Slide-Carrusel de imágenes*/
+.slide, .slide-image {
+  height: 100%;
+  width: 100%;
+}
+
+.slide {
+  background-color: #000000;
+  position: relative;
+  z-index: 2;
+}
+
+.slide .slide-image {
+  opacity: 0.75;
+  position: absolute;
+}
+
+.slide-text{
+  background-color: transparent;
+  box-sizing: border-box;
+  padding: 0 10%;
+  position: absolute;
+  text-align: right;
+  top: 40%;
+  width: 100%;
+  z-index: 2;
+}
+
+.slide-text .text{
+  padding: 0 15px;
+}
+
+.slide-text .title {
+  font-size: 4.9rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.slide-text .subtitle {
+  font-size: 1.8rem;
+}
+
+.image-show {
+  display: block;
+}
+
+.image-hidden {
+  display: none;
+}
