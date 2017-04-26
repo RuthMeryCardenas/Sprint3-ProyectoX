@@ -1,0 +1,301 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  left: 0;
+  background-color: white;
+  color: #555A5E;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-content{
+  font-size: 1rem;
+  margin: 5px;
+  overflow: auto;
+  text-align: center;
+}
+
+.header-icons{
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  margin-left: 2em;
+}
+
+.logo{
+  display: inline-block;
+  position: absolute;
+  margin-left: 7px;
+  left: 0;
+  width: 5%;
+  height: 88%;
+}
+
+ul{
+  display: inline-block;
+}
+
+li{
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+
+.enlaces a{
+  color: #555A5E;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.enlaces a:hover {
+  color: #ECA50B;
+}
+
+.enlaces{
+  margin-top: 1%;
+  width: 91%;
+}
+
+/*section nosotros*/
+
+#nosotros{
+  height: 662px;
+  position: relative;
+  overflow: hidden;
+}
+
+img, .images2{
+  height: 100%;
+  width: 100%;
+
+}
+
+/*fondo con imagenes*/
+.cont-imagen{
+  box-sizing: border-box;
+  position: relative;
+  overflow: auto;
+  opacity: 0.8;
+}
+
+.text-nosotros {
+  background-color: #837878;
+  border-radius: 15px;
+  color: white;
+  font-size: 21px;
+  opacity: 0.8;
+  padding: 28px;
+  position: absolute;
+  right: 21rem;
+  top: 21rem;
+  text-align: justify;
+  width: 700px;
+}
+
+/*estilos servicios*/
+#servicios{
+  background-color: #12404d;
+  padding-top: 10px;
+  position: relative;
+}
+
+.cuchara{
+  display: block;
+  height: 10rem;
+  margin: 4rem auto 0 auto;
+  width: 53rem;
+}
+
+.text-servicios{
+  color: white;
+  display: inline-block;
+  font-size: 21px;
+  margin: 0 100px;
+  text-align: justify;
+  width: 50%;
+}
+
+#cocktail{
+  display: inline-block;
+  height: 22rem;
+  position: absolute;
+  right: 148px;
+  top: 170px;
+  width: 16rem;
+}
+
+
+/*galeria*/
+#gallery{
+  position: relative;
+  text-align: center;
+  width: 100%
+}
+
+.cont-gallery{
+  height: 45rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+#fondo-gallery{
+  height: 107%;
+  width: 100%;
+}
+
+.galeria{
+  opacity: inherit;
+}
+
+#images-gallery{
+  position: absolute;
+  height: 75%;
+  width: 70%;
+  top: 6rem;
+}
+
+.imagen{
+  border-radius: 15px;
+  display: inline-block;
+  height: 15em;
+  margin: 1em;
+  overflow: hidden;
+  width: 17rem;
+}
+
+img.#cocktail{
+  display: inline-block;
+  height: 34rem;
+  position: absolute;
+  right: -14px;
+  right: 208px;
+  top: 35px;
+  width: 25rem;
+  z-index: 800px;
+}
+
+.text-galeria{
+  position: absolute;
+  top: 120px;
+  left: 1000px;
+  font-size: 50px;
+  color: #ECA50B;
+}
+
+#comida{
+  position: absolute;
+  bottom: 100px;
+  left: 1000px;
+  font-size: 50px;
+  color: #ECA50B;
+}
+
+.text{
+  display: block;
+}
+
+/*modal*/
+#work{
+  text-align: center;
+  color: black;
+}
+
+.text-work{
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.div-modal{
+  display: inline-block;
+  width: 350px;
+  height: 250px;
+}
+
+img.modal-img{
+  border-radius: 15px;
+  width: 350px;
+  height: 250px;
+  margin: 2%;
+}
+
+.modal{
+  display: none;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+  position: fixed;
+}
+
+.ventana{
+	width:50%;
+	height:50%;
+	text-align:center;
+	position:absolute;
+	top:20%;
+	left:-90px;
+	margin-left:30%;
+	}
+
+#imagen{
+    border-radius: 25px;
+    margin: auto;
+    width: 80%;
+    max-width: 700px;
+}
+
+div.boton-cerrar{
+  margin: 0;
+  position: absolute;
+  border-radius: 3px;
+  right: 77px;
+  color: white;
+  top: 7px;
+}
+
+.boton-cerrar{
+  display: none;
+  width:20px;
+  padding:2px;
+  float:right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+/*Pie de pÃ¡gina*/
+footer {
+  background-color: #1C1D21;
+  box-sizing: border-box;
+  bottom: 0;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  height: 3rem;
+  padding: 12px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 998;
+}
+
+footer span {
+  float: center;
+}
+
+footer a {
+  color: #FFFFFF;
+  float: left;
+  text-decoration: none;
+}
