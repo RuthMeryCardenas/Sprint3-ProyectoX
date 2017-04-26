@@ -1,0 +1,224 @@
+.main-container, header {
+  position: absolute;
+  width: 100%;
+}
+
+/*Contenedor Principal*/
+.main-container {
+  background-color: #EAEAEA;
+  color: #FFFFFF;
+  height: 100%;
+  top: 0;
+}
+
+/*Slide-Carrusel de imágenes*/
+.slide, .slide-image {
+  height: 100%;
+  width: 100%;
+}
+
+.slide {
+  background-color: #000000;
+  position: relative;
+  z-index: 2;
+}
+
+.slide .slide-image {
+  opacity: 0.6;
+  position: absolute;
+}
+
+.slide-text{
+  background-color: transparent;
+  box-sizing: border-box;
+  padding: 0 10%;
+  position: absolute;
+  text-align: right;
+  top: 40%;
+  width: 100%;
+  z-index: 2;
+}
+
+.slide-text .text{
+  padding: 0 15px;
+}
+
+.slide-text .title {
+  font-size: 4.9rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.slide-text .subtitle {
+  font-size: 1.8rem;
+}
+
+.image-show {
+  display: block;
+}
+
+.image-hidden {
+  display: none;
+}
+
+/*Header*/
+header{
+  background-color: transparent;
+  height: 124px;
+  top: 5%;
+  z-index: 1000;
+}
+
+.header-details {
+  box-sizing: border-box;
+  height: 100%;
+  left: 10%;
+  padding: 0 15px;
+  position: relative;
+  text-align: right;
+  width: 80%;
+}
+
+/*Información breve*/
+.home-address {
+  box-sizing: border-box;
+  font-size: 2.1rem;
+  left: 20%;
+  position: relative;
+  width: 80%;
+}
+
+.call {
+  font-size: 4.2rem;
+  left: 20%;
+  position: relative;
+  width: 80%;
+}
+
+.call .icon-phone {
+  font-size: 3.5rem;
+}
+
+/*Iconos de redes sociales*/
+.container-icon {
+  box-sizing: border-box;
+  height: 55px;
+  left: 15px;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  width: 19%;
+}
+
+.header-icon {
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 21px;
+  height: 55px;
+  margin-right: 7.5px;
+  padding-top: 13px;
+  position: relative;
+  text-align: center;
+  width: 55px;
+  text-decoration: none;
+}
+
+.header-icon span {
+  background-color: #555A5E;
+  border-radius: 50%;
+  padding: 17px;
+}
+
+.header-icon > span:hover {
+  background-color: #ECA50B;
+  color: #FFFFFF;
+}
+
+/*Menú Principal*/
+.main-menu {
+  background-color: #FFFFFF;
+  bottom: 15%;
+  color: #97989A;
+  height: 110px;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.menu-container {
+  box-sizing: border-box;
+  height: 100%;
+  left: 10%;
+  padding: 0 15px;
+  position: relative;
+  width: 80%;
+}
+
+/*Marca o logo*/
+.brand {
+  background-color: #FFFFFF;
+  float: left;
+  font-size: 2.0rem;
+  height: 100%;
+  text-align: center;
+  width: 20%;
+}
+
+.brand img {
+  height: 100%;
+  width: 100%;
+}
+
+/*Barra de Navegación*/
+.nav-bar {
+  float: left;
+  height: 100%;
+  width: 80%;
+  text-align: center;
+}
+
+.nav-bar .nav-link {
+  color: #555A5E;
+  font-size: 1.4rem;
+  padding: 44.5px 25px;
+  position: relative;
+  text-decoration: none;
+  top: 44.5px;
+}
+
+.nav-bar .nav-link:hover {
+  color: #ECA50B;
+}
+
+/*Pie de página*/
+footer {
+  background-color: #1C1D21;
+  box-sizing: border-box;
+  bottom: 0;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  height: auto;
+  padding: 5px 10px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 998;
+}
+
+footer a, footer span {
+  color: #FFFFFF;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer > span {
+  float: center;
+}
+
+footer > a {
+  float: left;
+}
