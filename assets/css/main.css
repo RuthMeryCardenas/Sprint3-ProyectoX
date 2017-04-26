@@ -191,3 +191,34 @@ header{
 .nav-bar .nav-link:hover {
   color: #ECA50B;
 }
+
+/*Pie de página*/
+footer {
+  background-color: #1C1D21;
+  box-sizing: border-box;
+  bottom: 0;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  height: auto;
+  padding: 5px 10px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 998;
+}
+
+footer a, footer span {
+  color: #FFFFFF;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer > span {
+  float: center;
+}
+
+footer > a {
+  float: left;
+}
