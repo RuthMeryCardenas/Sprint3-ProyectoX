@@ -40,7 +40,9 @@ cerrar.addEventListener("click",function(){
     });
 
  var esc = document.getElementsByClassName("imagen");
-
+// esc.addEventListener("onkeypress",function(e){
+//     if(e==27){}
+// });
 function detectarTecla (e) {
     var event = e;
     if (event.keyCode == 27) {
